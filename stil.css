@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+:active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.dil {
+    font-size: 18px;
+    margin-left: 10px;
+    position: fixed;
+    margin-top: -50px;
+    z-index: 10;
+}
+
+.dil a {
+    padding: 10px;
+    border-radius: 10px;
+    color: gainsboro;
+    transition: 0.5s ease-out;
+}
+
+.dil a:hover {
+    background: yellow;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.topnav {
+    background: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav a {
+    color: #fff;
+    padding: 1px 1px;
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.topnav a:hover {
+    background: #1E90FF;
+    transition: 0.2s ease-in;
+}
+
+.ObshiC {
+    display: flex;
+    justify-content: center;
+}
+
+.logBtn {
+    margin-top: 50px;
+    background: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.logBtn:hover {
+    transform: translateY(-10px);
+}
+
+.objCont {
+    margin-bottom: 50px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    position: static;
+}
+
+.obcito {
+    font-size: 20px;
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.obcito:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 10px white;
+    transform: translateY(-7px);
+    transform: translateY(-7px);
+}
+
+.show {
+    display: block;
+}
+
+.uscontI {
+    background-color: rgba(23, 8, 77, 0.8);
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.uscontI p {
+    font-size: 32px;
+}
+
+.alal {
+    margin: 48%;
+    color: white;
+    font-size: 32px;
+}
+
+.alal:hover {
+    border-bottom: 2px solid white;
+}
+
+.inxP {
+    background: #fff;
+    color: black;
+    width: 100%;
+    justify-content: left;
+}
+
+.inxPB {
+    background-color: silver;
+    color: black;
+    width: 100%;
+}
+
+.inxP p {
+    padding: 50px 50px 50px 50%;
+}
+
+.inxPB p {
+    padding: 50px 50% 50px 50px;
+}
+
+main p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.date_time-now {
+    color: #fff;
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social img:hover {
+    background: #424242;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.column p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    border-bottom: 2px solid #ffffff;
+    width: 25%;
+}
+
+.column p:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.column img {
+    position: relative;
+    margin-top: 8px;
+    vertical-align: middle;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: 1px solid Silver;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.column img:hover {
+    opacity: 1;
+    border: 1px solid White;
+    transform: scale(1.6);
+    z-index: 1;
+}
+
+.uscont {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.usL {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.usL img {
+    filter: blur(2px);
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+    background: gray;
+}
+
+.usL img:hover {
+    filter: blur(0px);
+    transition: all 0.3s ease;
+}
+
+.usL p {
+    font-size: 28px;
+}
+
+#logoKnop:hover {
+    background: silver;
+}
+
+img {
+    backdrop-filter: blur(5px);
+}
+
+form {
+    width: 700px;
+}
+
+.form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: #000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-input a {
+    color: #333;
+}
+
+.LogCont {
+    display: flex;
+    justify-content: left;
+    background-color: #42424280;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Log {
+    margin: 50px;
+    width: 100%;
+}
+
+.LogItem h1 {
+    margin-left: 320px;
+    padding: 5px;
+}
+
+.LogItem h2 {
+    margin-left: 320px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.LogItem img {
+    float: left;
+    position: relative;
+    width: 300px;
+    background: gray;
+}
+
+.LogPrim {
+    margin: 13px 0px 0px 320px;
+    border-top: 2px solid white;
+    padding: 22px 10px 10px 0px;
+}
+
+.LogPrim img {
+    justify-content: left;
+    margin-right: 30px;
+    transition: 0.2s;
+    background: gray;
+}
+
+.LogPrim img:hover {
+    transform: scale(1.1);
+}
+
+.back {
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: -5px;
+    transition: 0.2s;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.back:hover {
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 1250px) {
+    .usL {
+        width: 50%;
+    }
+    .column {
+        flex: 30%;
+        max-width: 30%;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .usL {
+        width: 70%;
+    }
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        padding-left: 50px;
+    }
+}
